@@ -27,11 +27,12 @@ console.log("result data top Hosting", topHostging);
         console.log(Data);
     }
     console.log(letData());// out put is 20
-    // not var and function provid top hosting but const and let is not provid so  most of time  used let and const 
-    // note 
+    // note=> var and function provid top hosting but const and let is not provid so  most of time  used let and const 
+    // note =>
     function extraPartData(){
         console.log("hello");
     }
     extraPartData.name = "Hello"
     console.log(extraPartData());// it is not provid error becouse  name is extra for this function
     // node each function has a return type  you can define or not 
+    
