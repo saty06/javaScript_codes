@@ -21,6 +21,7 @@ const promiseData = new Promise((reslove , reject)=>{
   }).catch((error)=>{
     console.log(" error data to fatch ", error);
   })
+   
   // node=> we can used more then one then method for any data 
   promiseData.then((data )=>{
     const indexData =   data || true
