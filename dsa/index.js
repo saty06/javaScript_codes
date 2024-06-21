@@ -36,4 +36,5 @@ for(let i =1; i<insertionSort.length; i++){
     }
     insertionSort[j+1] = key
 }
+
 console.log(" insertion sort ", insertionSort)
