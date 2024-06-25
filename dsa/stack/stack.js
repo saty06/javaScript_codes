@@ -14,13 +14,13 @@ class Stack {
     pop() {
         if (this.isEmpty()) {
             console.log("empty data");
-            return null; // Return null or a suitable value when the stack is empty
+            return null; 
         }
         return this.item.pop();
     }
 
     print() {
-        return this.item.join(', '); // Join items with a comma and space for better readability
+        return this.item.join(', '); 
     }
 }
 
@@ -29,4 +29,4 @@ stackdata.push(38);
 stackdata.push(48);
 stackdata.push(18);
 let data = stackdata.print();
-console.log(data); // Corrected to print the result of stackdata.print()
+console.log(data);
